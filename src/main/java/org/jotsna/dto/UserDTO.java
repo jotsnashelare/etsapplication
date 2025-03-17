@@ -7,6 +7,7 @@ public class UserDTO {
 	private String name;
 	private boolean active;
 	private LocalDateTime registeredAt;
+	private String string;
 	public String getName() {
 		return name;
 	}
@@ -33,6 +34,10 @@ public class UserDTO {
 	}
 	public UserDTO() {
 		
+	}
+	public UserDTO(String string) {
+		
+		this.string=string;
 	}
 	
 
